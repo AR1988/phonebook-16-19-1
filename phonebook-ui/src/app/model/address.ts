@@ -1,5 +1,5 @@
 export interface Address {
-  id : number,
+  id: number,
   country: string,
   city: string,
   index: string,
@@ -7,4 +7,5 @@ export interface Address {
   homeNr: number,
   isFavorite: boolean,
   contactId: number
+  group: string;
 }

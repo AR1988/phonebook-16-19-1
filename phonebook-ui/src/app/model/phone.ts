@@ -1,7 +1,8 @@
 export interface Phone {
-  id : number;
+  id: number;
   countryCode: string;
   telephoneNumber: string;
   isFavorite: boolean;
   contactId: number;
+  group: string;
 }

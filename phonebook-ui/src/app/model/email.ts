@@ -1,6 +1,8 @@
 export interface Email {
-  id : number;
+  id: number;
   email: string;
   isFavorite: boolean;
   contactId: number;
+  group: string;
+
 }
