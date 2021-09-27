@@ -43,4 +43,4 @@ jobs:
       - name: Build
         working-directory: ./phonebook-ui
         run: |
-          npm run build -- --prod
+          npm run build
