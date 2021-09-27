@@ -1,8 +1,9 @@
 name: Angular GitHub CI
 on:
   push:
-    branches:
-      - main
+    branches: [ main, test_ci_angular]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   ci:
